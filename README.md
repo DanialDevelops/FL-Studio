@@ -19,15 +19,24 @@ FL-Studio is a web-based platform designed to help musicians and producers explo
 - 🌐 **Netlify** - Hosting and deployment
 
 ## 📂 Project Structure
-FL-Studio/ │── src/ │ ├── assets/ # Logos, images, and other static files │ ├── components/ # React components │ │ ├── FirstLand/ # Landing Page │ │ ├── Homepage/ # Main Course Access Page │ │ ├── AboutUs/ # About Us Page │ ├── App.js # Main App Component │ ├── index.js # Entry point │── public/ # Static assets & index.html │── package.json # Project dependencies │── README.md #
-1. Clone the repository:
-   ```sh
+FL-Studio/
+├── src/ # Source files
+│ ├── assets/ # Logos, images, and other static files
+│ ├── components/ # React components
+│ ├── FirstLand/ # Landing Page
+│ ├── Homepage/ # Main Course Access Page
+│ ├── AboutUs/ # About Us Page
+│ ├── App.js # Main App Component
+│ ├── index.js # Entry point
+├── public/ # Static assets & index.html
+├── package.json # Project dependencies
+├── README.md # Documentation file
+## Clone the repository:
    git clone https://github.com/DanialDevelops/FL-Studio.git
-   cd FL-Studio
-   npm install
-   npm start
-   npm run build
-   Deployment (Netlify)
+cd FL-Studio
+npm install
+npm start
+npm run build
 This project is deployed on Netlify. To deploy manually:
 
 Run npm run build
